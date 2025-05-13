@@ -24,7 +24,7 @@ public class CalculatorServiceTest {
     }
 
     @Test
-    public void testDivide(){
+    public void testDivide() {
         CalculatorService calc = new CalculatorService();
         assertEquals(5, calc.divide(10, 2));
     }
